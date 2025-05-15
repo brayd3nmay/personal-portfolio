@@ -1,1 +1,3 @@
-# personal-portfolio
+Hi!
+
+This is my personal portfolio.
