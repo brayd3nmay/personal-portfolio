@@ -3,6 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
 }
 
 .body-padding {
@@ -10,7 +11,6 @@ body {
 }
 
 .header, .hero {
-    font-family: "Roboto";
     background-color: #1F2937;
 }
 
@@ -79,4 +79,47 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 35px;
+    padding-bottom: 115px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-img {
+    flex-shrink: 0;
+    width: 115px;
+    height: 115px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #2882F6;
+    border-radius: 8px;
+}
+
+.info {
+    text-align: center;
 }
