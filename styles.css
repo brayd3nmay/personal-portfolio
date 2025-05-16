@@ -143,3 +143,42 @@ ul {
     align-self: flex-end;
     font-size: 20px;
 }
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    background-color: #2882F6;
+    padding: 50px 100px;
+    display: flex;
+    gap: 100px;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call-to-action-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-border {
+    border-color: white;
+    border-radius: 8px;
+    border-width: 3px;
+}
+
+.call-to-action-button {
+    background-color: inherit;
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+}
