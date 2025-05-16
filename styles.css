@@ -6,7 +6,12 @@ body {
 }
 
 .body-padding {
-    padding: 0 69px;
+    padding: 0 90px;
+}
+
+.header, .hero {
+    font-family: "Roboto";
+    background-color: #1F2937;
 }
 
 .header {
@@ -17,10 +22,11 @@ body {
 
 .name {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
-.links {
+.links, .hero-small-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -33,7 +39,44 @@ ul {
     gap: 20px;
 }
 
-.header {
-    font-family: "Roboto";
-    background-color: #1F2937;
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.hero-content, .hero-image {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-button {
+    background-color: #2882F6;
+    color: white;
+    align-self: flex-start;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
 }
